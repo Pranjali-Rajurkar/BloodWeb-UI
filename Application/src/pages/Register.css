@@ -1,0 +1,67 @@
+/* Main container for the Register page */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Heading for the page */
+.register-container h1 {
+  color: #e91e63;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Subtext below heading */
+.register-subtext {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Styling for the buttons and options */
+.register-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Common button styling */
+.register-btn {
+  width: 250px;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+/* Donor specific button */
+.donor-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.donor-btn:hover {
+  background-color: #45a049;
+}
+
+/* Recipient specific button */
+.recipient-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.recipient-btn:hover {
+  background-color: #1976d2;
+}
+
+/* Link styling if you need any link*/
+  .register-link {
+  text-decoration: none;
+}

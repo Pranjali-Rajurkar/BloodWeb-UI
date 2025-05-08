@@ -1,0 +1,39 @@
+.otp-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffe6e6;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  }
+  
+  .otp-container h2 {
+    margin-bottom: 1rem;
+    color: #cc0000;
+  }
+  
+  .otp-container input {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .otp-container button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .otp-container p {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  

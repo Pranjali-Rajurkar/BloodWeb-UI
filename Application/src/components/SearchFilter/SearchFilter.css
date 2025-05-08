@@ -1,0 +1,76 @@
+/* General Styles */
+.search-filter {
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.search-filter input {
+  width: 80%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-filter button {
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-filter button:hover {
+  background-color: #0056b3;
+}
+
+.search-filter .error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Donor Results */
+.donor-results {
+  margin-top: 2rem;
+}
+
+.donor-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donor-card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.donor-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.donor-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.donor-card button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,51 @@
+/* Navbar.css */
+.navbar {
+  background-color: #f78ba8; /* Soft pinkish background */
+  padding: 1rem 2rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fbf8f8; /* Pink color for links */
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #ec6388; /* Darker pink when hovered */
+}
+
+.logout-btn {
+  background: transparent;
+  border: 2px solid #ff6f61; /* Pink border for the logout button */
+  color: #f07e74; /* Pink text color */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #ff6f61; /* Pink background on hover */
+  color: white; /* White text when hovered */
+}
+
+.logo img {
+  max-height: 50px;
+}
